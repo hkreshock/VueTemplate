@@ -30,11 +30,11 @@ def getPortNumber(branchName) {
 
 def getName(branchName) {
 	if ("dev".equals(branchName)) {
-		return 'dev_learning_playground';
+		return 'dev_my_vue_project';
 	} else if ("staging".equals(branchName)) {
-		return 'staging_learning_playground';
+		return 'staging_my_vue_project';
 	} else if ("master".equals(branchName)) {
-		return 'learning_playground';
+		return 'my_vue_project';
 	}
 }
 

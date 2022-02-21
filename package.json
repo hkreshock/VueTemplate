@@ -1,9 +1,9 @@
 {
-  "name": "Learning_Playground",
+  "name": "My Vue Project",
   "version": "0.0.1",
   "description": "A Quasar Vue3 Learning Playground",
-  "productName": "Learning_Playground",
-  "author": "Brooke Cobb <brookeecobb@gmail.com>",
+  "productName": "My_Vue_Project",
+  "author": "Hunter Kreshock <hkreshock@gmail.com>",
   "private": true,
   "scripts": {
     "serve": "set QENV=local&& quasar dev",
