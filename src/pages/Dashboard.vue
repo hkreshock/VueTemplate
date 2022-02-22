@@ -4,19 +4,13 @@
 </template>
 
 <script>
-import { computed, defineComponent } from 'vue';
-import { useStore } from 'vuex';
-
-// animations
-import 'animate.css';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
     name: 'Dashboard',
     components: {
     },
     setup() {
-        const $store = useStore();
-
         return { };
     },
 });
