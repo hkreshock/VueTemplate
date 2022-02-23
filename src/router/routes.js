@@ -5,7 +5,24 @@ const makeRoutes = (store) => {
         {
             path: '/',
             component: () => import('layouts/MainLayout.vue'),
-            children: [],
+            children: [
+                {
+                    path: '',
+                    name: 'dashboard',
+                    component: () => import('pages/Dashboard.vue'),
+                },
+            ],
+        },
+        {
+            path: '/dataTable',
+            component: () => import('layouts/MainLayout.vue'),
+            children: [
+                {
+                    path: '',
+                    name: 'dataTablePage',
+                    component: () => import('pages/DataTable.vue'),
+                },
+            ],
         },
     ];
 

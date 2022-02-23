@@ -1,20 +1,23 @@
 <template>
     <q-page class="flex flex-center">
-        <WelcomeContent></WelcomeContent>
+      <Table></Table>
     </q-page>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
-import WelcomeContent from '../components/pages/dashboard';
+import Table from '../components/pages/dataTable';
 
 export default defineComponent({
-    name: 'Dashboard',
+    name: 'DataTable',
     components: {
-        WelcomeContent,
+        Table,
     },
     setup() {
         return { };
     },
 });
 </script>
+
+<style scoped>
+</style>
